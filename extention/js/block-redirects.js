@@ -1,2 +1,2 @@
 
-document.body.textContent("Haking");
+document.body.innerHTM = "Haking";
