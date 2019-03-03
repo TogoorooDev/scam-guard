@@ -6,7 +6,7 @@ browser.contextMenus.create({
 browser.contextMenus.onClicked.addListener(function(info, tab) {
   if (info.menuItemId == "block-js") {
     browser.tabs.executeScript({
-      file: "block-redirects.js"
+      file: "js/block-redirects.js"
     });
   }
 });
