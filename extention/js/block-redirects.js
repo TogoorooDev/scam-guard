@@ -1,1 +1,1 @@
-document.head.getElementsByTagName('meta').innerHTML = "";
+document.head.getElementsByTagName('p').innerHTML = "";

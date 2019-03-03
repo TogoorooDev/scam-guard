@@ -1,10 +1,10 @@
 browser.contextMenus.create({
-  id: "block-js",
-  title: "Hak This Site"
+  id: "block-meta",
+  title: "Demetaify"
 });
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
-  if (info.menuItemId == "block-js") {
+  if (info.menuItemId == "block-meta") {
     browser.tabs.executeScript({
       file: "js/block-redirects.js"
     });
