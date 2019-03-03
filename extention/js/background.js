@@ -1,7 +1,7 @@
-browser.contextMenus.create({
+/*browser.contextMenus.create({
   id: "block-meta",
   title: "Demetaify"
-});
+}); */
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
   if (info.menuItemId == "block-meta") {
