@@ -1,1 +1,2 @@
-document.body.innerHTML("Haking");
+
+document.body.textContent("Haking");
