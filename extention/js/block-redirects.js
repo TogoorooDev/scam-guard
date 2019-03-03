@@ -1,1 +1,1 @@
-document.head.getElementsByTagName('p').innerHTML = "U R Hak\'d";
+document.head.getElementsByTagName('meta').innerHTML = "";
