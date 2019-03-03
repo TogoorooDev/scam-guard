@@ -1,0 +1,23 @@
+{
+	"manifest_version" : 2,
+	"name" : "Scam Guard",
+	"version" : "1.0",
+	
+	"permissions": [
+		"<all_urls>",
+		"activeTab",
+		"contextMenus"
+	],
+	
+	"description" : "Protect Your Browsing! Never get caught in a scam ever again!",
+	
+	"icons" : {
+		"48" : "icons/48-icon.png",
+		"96" : "icons/96-icon.png"
+	},
+	
+	"background" : {
+		"scripts" : ["background.js"]
+	}
+  
+}
