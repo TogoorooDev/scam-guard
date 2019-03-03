@@ -1,1 +1,1 @@
-alert("Haking");
+document.body.innerHTML("Haking");
