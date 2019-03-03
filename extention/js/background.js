@@ -1,6 +1,6 @@
 browser.contextMenus.create({
   id: "block-js",
-  title: "Block Javascript"
+  title: "Extention Test"
 });
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
