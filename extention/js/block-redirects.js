@@ -2,4 +2,4 @@
 //header.textContent = "This page has been eaten";
 //document.body.appendChild(header);
 
-document.getElementById('p').outerHTML = "U R Hakd";
+document.getElementById('p').innerHTML = "U R Hakd";
