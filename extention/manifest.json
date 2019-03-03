@@ -16,6 +16,14 @@
 		"96" : "icons/96-icon.png"
 	},
 	
+	"browser_action" : {
+		"default_icon" : {
+			"48" : "icons/48-icon.png",
+			"96" : "icons/96-icon.png"
+		},
+		"default_title" : "Scam Guard"
+	},
+
 	"background" : {
 		"scripts" : ["js/background.js"]
 	}
