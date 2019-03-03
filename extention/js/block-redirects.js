@@ -1,1 +1,1 @@
-document.head.getElementsByTagName('p')[0].innerHTML = "";
+document.head.getElementsByTagName('p')[1].innerHTML = "";
